@@ -1,0 +1,129 @@
+@font-face { font-family: FontCus; src: url('CustomFont.otf'); }
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+body {
+  background-color: #ffeefb;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 10px;
+  font-family: fantasy;
+  font-style: normal;
+  text-align: center;
+  padding: 0px 0px;
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: #ffb9ed;
+  animation: fadeIn 4s;
+}
+
+h2 {
+  font-size: 25px;;
+  letter-spacing: 4px;
+  font-family: fantasy;
+  font-style: normal;
+  text-align: center;
+  padding: 0px 0px;
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: #ffb9ed;
+  animation: fadeIn 4s;
+}
+
+h3 {
+  font-size: 80px;
+  letter-spacing: 10px;
+  font-family: fantasy;
+  font-style: normal;
+  text-align: center;
+  margin: 0;
+  margin-top: 0;
+  color: #ffb9ed;
+  animation: fadeIn 2s;
+}
+
+footer {
+  background-color: pink;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  height: 20px;
+  animation: fadeIn 2s;
+}
+
+button {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 40px;
+  border-style: dotted;
+  border-width: thick;
+  border-color: pink;
+  font-family: FontCus;
+  color: #ffb9ed;
+  animation: fadeIn 2s;
+}
+
+#hr1 {
+  height: 5px;
+  background-color: pink;
+  border: none;
+  animation: fadeIn 2s;
+}
+
+#hr2 {
+  border: 1px dotted pink;
+  animation: fadeIn 2s;
+}
+
+#pic1 {
+  animation: fadeIn 2s;
+}
+
+#pic3 {
+  margin-top: 100px;
+  animation: fadeIn 2s;
+}
+
+#pic4{
+  margin-top: 70px;
+  margin-bottom: 40px;
+  animation: fadeIn 2s;
+}
+
+#pic5 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  animation: fadeIn 2s;
+}
+
+#pic6 {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  animation: fadeIn 2s;
+}
+
+#pic7 {
+  margin-bottom: 200px;
+  animation: fadeIn 2s;
+}
+
+#pic8 {
+  margin-bottom: 100px;
+  animation: fadeIn 2s;
+}
+
+.ButtonsMainPage {
+  text-align: center;
+  animation: fadeIn 2s;
+}
+
+.pics {
+  text-align: center;
+}
